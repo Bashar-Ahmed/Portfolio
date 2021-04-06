@@ -1,0 +1,101 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+}
+.heading {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4rem;
+    color:beige;
+}
+h1 {
+    margin-top: 3%; 
+    margin-bottom: 3%;
+}
+.flex-container {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+    justify-content: center;
+}
+.row>div {
+    
+    color: azure;
+    font-family: 'Rock Salt', cursive;
+}
+@media screen and (min-width:700px) {
+    body {
+        background-image: url('../images/coding.jpg');
+    }
+    .row>div {
+        font-size: 2rem;
+        margin: 2rem 4rem;
+    }
+}
+@media screen and (max-width:700px) {
+    body {
+        background-image: url('../images/codingcrop.jpg');
+    }
+    .row>div {
+        font-size: 1rem;
+        margin: 2rem 1rem;
+    }
+}
+.dev {
+    color: antiquewhite;
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+.sdsi {
+    opacity: 0.9;
+}
+.sdsi:hover {
+    opacity: 1;
+}
+.skills {
+    font-size: 4rem;
+    font-family: 'Sacramento', cursive;
+    color:coral;
+    
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+.java,.html {
+    animation: lef ease 2s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes lef {
+    0% {opacity: 0;transform: translateX(-18rem);}
+    100% {opacity: 1;}
+}
+.cpp,.css {
+    animation: righ ease 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+@keyframes righ {
+    0% {opacity: 0;transform: translateX(18rem);}
+    100% {opacity: 1;}
+}
+.py {
+    animation: pya ease 2s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes pya {
+    0% {opacity: 0;transform: translateY(12rem);}
+    100% {opacity: 1;}
+}

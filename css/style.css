@@ -1,0 +1,88 @@
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+}
+.name {
+    margin-top: 12%;
+    margin-bottom: 0;
+    width: 100%;
+    color: aliceblue;
+    font-family: 'Sacramento', cursive;
+    font-size: 4.5rem;
+    animation-name: bashar;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes bashar {
+    50% {transform: scale(0.8);}
+}
+.sds {
+    color: antiquewhite;
+    font-size: 2rem;
+    font-family: 'Merienda', cursive;
+    animation-name: devat;
+    animation-delay: 3.5s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes devat {
+    50% {transform: translateY(2rem);}
+}
+.sr {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    margin-top: 4rem;
+    transition-duration: .5s;
+}
+.sr:hover {
+    text-shadow: 5px 5px 5px grey;
+}
+.footer {
+    background-color: #1B1B1B;
+    margin: 0%;
+    width: 100%;
+    opacity: .65;
+    font-size: 3rem; 
+    font-family: 'Dancing Script', cursive;
+    color: cornflowerblue;
+}
+.project {
+    font-family: 'Merienda', cursive;
+    color: lightblue;
+    font-size: 2rem;
+}
+.movies {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    color: lightpink;
+}
+.connect {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.btn {
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: gray;
+    margin-bottom: 1rem;
+    margin-left: .5rem;
+    border-radius: 15px 0 15px 0;
+    transition-duration: 1s;
+}
+.btn:hover {
+    opacity: 1;
+    background-color: wheat;
+    transform: rotateY(20deg);
+    box-shadow: 10px 10px 5px grey;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
