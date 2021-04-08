@@ -6,7 +6,6 @@ body {
 }
 .heading {
     font-family: 'Sacramento', cursive;
-    font-size: 2.5rem;
     color:beige;
 }
 h1 {
@@ -32,6 +31,12 @@ h1 {
     body {
         background-image: url('../images/coding.jpg');
     }
+    .heading {
+        font-size: 4rem;
+    }
+    .dev {
+        font-size: 2.5rem;
+    }
     .skills {
         font-size: 4rem;
     }
@@ -43,6 +48,12 @@ h1 {
     body {
         background-image: url('../images/codingcrop.jpg');
     }
+    .heading {
+        font-size: 3.5rem;
+    }
+    .dev {
+        font-size: 2rem;
+    }
     .skills {
         font-size: 3rem;
     }
@@ -52,14 +63,12 @@ h1 {
 }
 .dev {
     color: antiquewhite;
-    font-size: 2.5rem;
     font-family: 'Dancing Script', cursive;
     margin-top: 0;
 }
 .skills {
     font-family: 'Sacramento', cursive;
-    color:coral;
-    
+    color:coral;   
     transition-delay: 1s;
     transition-duration: 1s;
     height: 7rem;
